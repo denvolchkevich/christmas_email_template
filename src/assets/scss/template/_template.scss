@@ -1,0 +1,99 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+
+table.body {
+  min-width: 320px;
+  background: url(http://image.sendsay.ru/image/madrobots/promo/ny-digest1-2016-12/bg2.gif);
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: $hr-width;
+  border: $hr-border;
+  &.small {
+    width: 60px;
+  }
+}
+
+// Full Width Headers
+
+.header .columns {
+  padding: 0;
+}
+
+img.header-logo {
+  height: 40px;
+  width: auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    height: 40px !important;
+    width: auto;
+  }
+}
+
+
+// Typography
+
+h1 {
+  line-height: 34px;
+}
+
+h2 {
+  line-height: 30px;
+}
+
+h3 {
+  line-height: 28px;
+}
+
+p {
+  line-height: 26px;
+}
+
+
+// Call to action
+
+
+
+// Author signature
+.author-photo {
+  border-radius: $global-rounded;
+  height:90px;
+  width:90px;
+}
+
+.author-name {
+  margin-bottom: 2px !important;
+  Margin-bottom: 2px !important;
+}
+
+// Social icons
+
+.social-icon a img {
+  width: 30px;
+  height: 30px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+// Footer
+
+.footer.container {
+  background: transparent;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+  Margin-bottom: 0 !important;
+  color: #ffffff;
+}
+
+// Buttons
+table.menu th.menu-item a {
+  color: #ffffff;
+}
